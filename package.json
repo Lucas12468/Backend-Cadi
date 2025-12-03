@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
   },
   "scripts": {
     "start": "node index.js"
@@ -13,22 +13,3 @@
     "cors": "^2.8.5"
   }
 }
-```
-
-**Key changes:**
-- ✅ Added `"engines"` to specify Node version
-- ✅ Simplified dependencies (removed dotenv - not needed)
-- ✅ Simple start script
-
-**Commit it!**
-
----
-
-## 🔧 ALSO - Create a Procfile:
-
-**In GitHub:**
-1. Click **"Add file"** → **"Create new file"**
-2. Name it: `Procfile` (no extension!)
-3. Content:
-```
-web: node index.js
