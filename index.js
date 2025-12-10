@@ -29,18 +29,3 @@ app.get('/api/test', (req, res) => {
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`✅ Cadi Backend running on port ${PORT}`);
 });
-```
-
-**Click "Commit new file"**
-
----
-
-## 📝 FILE 3: .npmrc
-
-**Click "Add file" → "Create new file"**
-
-**Name:** `.npmrc`
-
-**Content:**
-```
-legacy-peer-deps=true
